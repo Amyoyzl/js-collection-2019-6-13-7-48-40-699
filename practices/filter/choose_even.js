@@ -1,8 +1,7 @@
 'use strict';
 
 function choose_even(collection) {
-    const condition = (number) => { return number % 2 == 0 };
-    return collection.filter(condition);
+    return collection.filter((number) => number % 2 == 0);
 }
 
 module.exports = choose_even;
